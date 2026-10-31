@@ -30,7 +30,7 @@ if (frontendUrl) {
 // Endpoint de bienvenida
 app.get("/", (req, res) => {
     res.json({
-        mensaje: "Bienvenido a la API, version 2",
+        mensaje: "Bienvenido a la API, Eunice Abigail",
         entorno: NODE_ENV
     });
 });
